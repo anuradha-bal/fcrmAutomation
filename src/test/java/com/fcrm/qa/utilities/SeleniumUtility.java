@@ -42,7 +42,7 @@ public class SeleniumUtility
         File source = ts.getScreenshotAs(OutputType.FILE);
         try {
             Thread.sleep(3000);
-            FileUtils.copyFile(source, new File("src/test/resources/Screenshots/" + fileName));
+            FileUtils.copyFile(source, new File("src/test/resources/Test-Output/Screenshots/" + fileName));
         } catch (IOException e) {
             e.printStackTrace();
         } catch (InterruptedException e) {

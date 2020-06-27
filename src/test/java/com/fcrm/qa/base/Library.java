@@ -40,7 +40,7 @@ public class Library
     public void launchApplication()
     {
         try {
-            FileInputStream fis = new FileInputStream("src/test/java/com/crm/qa/config/config.properties");
+            FileInputStream fis = new FileInputStream("src/test/java/com/fcrm/qa/config/config.properties");
             prop = new Properties();
             prop.load(fis);
 
